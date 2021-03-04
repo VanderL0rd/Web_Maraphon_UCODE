@@ -1,0 +1,17 @@
+fieldset{
+    padding: 20px;
+    border: 2px solid gray;
+}
+label{
+    font-size: 20px;
+}
+legend{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+input{
+    margin-left: 10px;
+    margin-top: 10px;
+}

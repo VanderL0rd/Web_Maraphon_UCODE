@@ -1,0 +1,39 @@
+th{
+    color: #ffe369;
+    font-weight: bold;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    background-color:  rgba(110, 0, 0, 0.4);
+    padding: 10px;
+}
+table{
+    background: linear-gradient(100deg, #6e0000, antiquewhite);
+}
+td{
+    text-align: center;
+}
+#First{
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+}
+#Second{
+    background-color: rgba(143,148,251, 0.1);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#Light{
+    color: midnightblue;
+    background-color: antiquewhite;
+    border: 2px rgba(189, 195, 199, 0.05);
+    padding: 5px 50px;
+}
+#Dark{
+    background-color: darkred;
+    color: white;
+}
+#Link{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}

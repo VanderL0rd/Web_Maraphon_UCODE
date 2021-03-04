@@ -1,0 +1,33 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    margin: 5px;
+    height: 220px;
+}   
+li:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+img{
+    bottom: 25px;
+    position: relative;
+}
+p{
+    bottom: 25px;
+    position: relative;
+}
+#data{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+}
+#Temp{
+    text-align: center;
+    font-size: 2em;
+    float: inline-end;
+}

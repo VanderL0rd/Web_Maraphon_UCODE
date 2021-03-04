@@ -1,0 +1,37 @@
+th{
+    background-color: black;
+    color: white;
+}
+tr{
+    margin: 10px;
+}
+tr.Soul{
+    background-color: orange;
+    text-align: center;
+}
+tr.Time{
+    background-color: green;
+    text-align: center;
+}
+tr.Mind{
+    background-color: yellow;
+    text-align: center;
+}
+tr.Space{
+    background-color:blue;
+    text-align: center;
+}
+tr.Power{
+    background-color: purple;
+    text-align: center;
+}
+tr.Reality{
+    background-color: red;
+    text-align: center;
+}
+img{
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 120px;
+    width: 120px;
+}
