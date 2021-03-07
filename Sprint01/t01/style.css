@@ -1,8 +1,0 @@
-img.image{
-    left: 30px;
-    top: 60px;
-    position: relative;
-}
-img.image:hover{
-    transform: rotate(30deg);
-}
