@@ -1,14 +1,12 @@
-class Calculator {
-    constructor(number = 0) {
-        this.result = number;
-    }
+function Calculator(number = 0) {
+    this.result = number;
 
-    init(number) { this.result = number; }
-    add(number) { this.result += number; }
-    mul(number) { this.result *= number; }
-    div(number) { this.result /= number; }
-    sub(number) { this.result -= number; }
-    alert() { this.alert(this.results); }
+    this.init = function (number) { this.result = number; return this; }
+    this.add = function (number) { this.result += number; return this; }
+    this.mul = function (number) { this.result *= number; return this; }
+    this.div = function (number) { this.result /= number; return this; }
+    this.sub = function (number) { this.result -= number; return this; }
+    this.alert = function () { setTimeout(alert, 5000, this.result); }
 };
 const calc = new Calculator();
 console.log(
