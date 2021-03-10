@@ -1,19 +1,19 @@
 var concat = (function (string1, string2) {
     if (typeof (string2) == 'undefined') {
-        function call() {
-            if (typeof (call.count) == 'undefined') {
-                call.count = 0;
+        function func1() {
+            if (typeof (func1.count) == 'undefined') {
+                func1.count = 0;
             }
             var string2 = prompt("Enter second string");
-            call.count++;
+            func1.count++;
             return string1.concat(" ", string2);
         }
-        return call;
+        return func1;
     }
     else {
-        function call_1() {
+        function func1() {
             return string1.concat(" ", string2);
         }
-        return call_1;
+        return func1;
     }
 });
