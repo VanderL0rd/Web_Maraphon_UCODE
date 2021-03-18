@@ -1,0 +1,28 @@
+div {
+    transform: rotate(-45deg);
+}
+
+#yell {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+#gren {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+#blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+#red {
+    height: 96px;
+    width: 96px;
+    background-color: red;
+    border: 2px dashed;
+}

@@ -1,0 +1,26 @@
+div {
+    display: flex;
+}
+
+input[type="button"] {
+    color: white;
+    border: white;
+    width: 50px;
+    background-color: rgb(187, 185, 185);
+}
+
+img {
+    height: 500px;
+}
+
+#Second {
+    display: none;
+}
+
+#Third {
+    display: none;
+}
+
+#Fourth {
+    display: none;
+}

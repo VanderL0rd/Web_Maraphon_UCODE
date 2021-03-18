@@ -1,0 +1,40 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+#add {
+    margin-right: 300px;
+    margin-left: 20px;
+    background-color: blue;
+    color: snow;
+    border-radius: 5px;
+}
+
+.form_label {
+    margin-bottom: 32px;
+}
+
+.input {
+    background: gray;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.input_1 {
+    background: gray;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p {
+    background: white;
+    padding: 5px;
+    height: 1em;
+    margin: 0%;
+}
