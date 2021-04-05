@@ -1,0 +1,4 @@
+INSERT INTO heroes(name, description, race, class_role) VALUES ('Iron Man', 'Millionaire industrialist, a founding member of the Avengers', DEFAULT ,'dps');
+INSERT INTO heroes(name, description, race, class_role) VALUES ('Vision', "Vision was originally created to be Ultron's next body by a mind controlled Helen Cho from synthetic tissue and vibranium.", 'Android' ,'dps');
+INSERT INTO heroes(name, description, race, class_role) VALUES ('Gamora', 'Gamora was raised from childhood by Thanos and Ronan to be a galaxy-class killer.', 'Zehoberei Cyborg' ,'dps');
+INSERT INTO heroes(name, description, race, class_role) VALUES ('Mar-Vell', 'Captain Mar-Vell was a member of the Kree, the alien humanoid warrior race which has forged an empire throughout the galaxy known as the Large Magellanic Cloud.', 'Kree' ,'dps');
