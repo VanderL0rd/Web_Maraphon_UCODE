@@ -1,12 +1,13 @@
 <?php
 include "index.html";
 require_once "connection/conn_db.php";
-include "models/models.php";
+include "models/add.php";
 
 $conn = mysqli_connect('127.0.0.1', 'vchukhrii', 'securepass', 'sword');
 
 if($_POST){
-    if($_POST['pwd']==$_POST['con_pwd']){
+    if($_POST['pwd']==$_POST['con_pwd'] || !empty($_POST['log']) || 
+    !empty($_POST['email']) || !empty($_POST['f_name'])){
         $login = $_POST['log'];
         $pwd = $_POST['pwd'];
         $f_name = $_POST['f_name'];
