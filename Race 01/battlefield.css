@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+h2{
+    margin-bottom: 0mm;
+}
+div{
+    display: flex;
+}
+.field{
+    display: flex;
+    flex-direction: row;
+}
+
+.players {
+    flex-direction: column;
+    background-color: brown;
+    padding: 10px;
+}
+.enemy {
+    background-color: crimson;
+    padding: 15px;
+    flex-direction: column;
+}
+.img {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    margin-left: 150px;
+}
+.player{
+    background-color: cornflowerblue;
+    padding: 15px;
+    flex-direction: column;
+    top: 98%;
+    position: sticky;
+}
+
+.stat{
+    flex-direction: row;
+    padding: 40px;
+    height: 60px;
+}
+
+.enemy_cards{
+    height: 100px;
+    width: 80%;
+    padding: 15px;
+}
+.DeskOfCards{
+    height: 78px;
+    width: 54px;
+    background-color: seagreen;
+}
+.mana{
+    background-color: blue;
+}
+.health{
+    margin-right: 10px;
+    background-color: red;
+}
+.hexagon {
+    position: relative;
+    margin:  2px 40px 2px 5px;
+    padding: 0px 4px;
+    width: 70px; 
+    height: 35px;
+    border: 7px solid transparent;
+    border-right-color: wheat;
+    border-left-color: wheat;
+}
+.hexagon:before, .hexagon:after {
+    content: "";
+    border: inherit;
+    position: absolute;
+    top: -0.6vh;
+    left: -0.6vh; 
+    background-color: inherit;
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+}
+.hexagon:before {
+    transform: rotate(60deg);
+}
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+.container {
+    position: relative;
+    z-index: 2;
+    color: wheat;
+    font: 2em sans-serif;
+}
+.battle{
+    height: 400px;
+    background-color: teal;
+    margin: 20px 0px;
+    flex-direction: column;
+}
+.card_field{
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 10px;
+}
+.cards{
+    width: 900px;
+    height: 170px;
+    padding: 10px;
+    background-color: violet;
+}
+.card{
+    height: 150px;
+    width: 90px;
+    background-color: seashell;
+    margin: 0px 10px;
+}
+.player_pl_cards{
+    padding: 10px;
+    border: 3px solid blue;
+    height: 240px;
+}
+.enemy_pl_cards{
+    border: 3px solid pink;
+    height: 240px;
+}
